@@ -715,6 +715,325 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BulkCap_100u:EEE-FP1V101AP"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "EEE-FP1V101AP"
+				(at 3.81 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAP_EEFK_F_PAN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "EEE-FP1V101AP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EEE-FP1V101AP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CAP_EEFK_F_PAN CAP_EEFK_F_PAN-M CAP_EEFK_F_PAN-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EEE-FP1V101AP_1_1"
+				(polyline
+					(pts
+						(xy 1.5748 1.27) (xy 2.8448 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2098 0.635) (xy 2.2098 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.7541 -1.9108)
+					(mid 4.1148 0)
+					(end 4.7541 1.9108)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EEE-FP1V101AP_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.9108 -4.7541)
+					(mid 0 -4.1148)
+					(end 1.9108 -4.7541)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.2098) (xy 1.905 -2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.5748) (xy 1.27 -2.8448)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -852,162 +1171,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_US"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "capacitor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
 					(name ""
 						(effects
 							(font
@@ -2039,6 +2202,14 @@
 		(color 0 0 0 0)
 		(uuid "fb5d7f79-5dcf-4d04-a9e6-220bdc1b0206")
 	)
+	(no_connect
+		(at 128.27 92.71)
+		(uuid "565b0a8e-ee23-4592-b1a1-d26b1b4c3b8f")
+	)
+	(no_connect
+		(at 128.27 97.79)
+		(uuid "5fb749e6-9120-4828-9983-e7e95aeb4deb")
+	)
 	(wire
 		(pts
 			(xy 73.66 72.39) (xy 80.01 72.39)
@@ -2971,7 +3142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e073fa0-65f1-4255-a768-eade90d953f6")
-		(property "Reference" "Cvcc_12"
+		(property "Reference" "Cvcc_12V1"
 			(at 114.3 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3039,6 +3210,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Cvcc_12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3052,7 +3229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15175e71-36fc-46a5-928d-19240f8e47d0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR023"
 			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3116,6 +3293,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3130,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1f5a3f-e85c-4fe7-8cf3-e551fea4ffbe")
-		(property "Reference" "Coutx_12"
+		(property "Reference" "Coutx_12V1"
 			(at 247.65 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3152,7 +3335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 244.8052 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3198,6 +3381,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Coutx_12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3212,7 +3401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf3e9e2-ee4b-44d9-bac9-65694822d3e9")
-		(property "Reference" "Cin_12"
+		(property "Reference" "Cin_12V1"
 			(at 83.82 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.9752 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3280,6 +3469,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Cin_12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3293,7 +3488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "221fe4d9-f4de-426c-b3f5-72a938da98fe")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR027"
 			(at 248.92 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3358,84 +3553,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_US")
-		(at 232.41 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45361be4-458d-42b1-abf8-56df6756d2a6")
-		(property "Reference" "Cout_12_2"
-			(at 221.996 105.156 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 226.568 107.442 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 232.41 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
-			(at 232.41 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8e89f8e-d11b-4a5a-a0c3-6a3e279ea92b")
-		)
-		(pin "2"
-			(uuid "a0be3312-42f1-4dcd-8b3e-e39565c6673a")
-		)
-		(instances
-			(project "12VBUCK"
-				(path "/661a2d62-d0a5-4ce0-a5da-786c7982441e"
-					(reference "Cout_12_2")
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3453,7 +3573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47d096a7-9fe0-42fa-bf70-d3c3c7c2f411")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR025"
 			(at 144.78 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3519,7 +3639,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR07")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3536,7 +3656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56f2a3c2-beaf-4b02-8888-5f42ea7a736d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR022"
 			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3603,7 +3723,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "#PWR04")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae6ec28-543c-4794-b374-565d340313c4")
-		(property "Reference" "Rfbb_12"
+		(property "Reference" "Rfbb_12V1"
 			(at 201.93 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.374 115.316 90)
 			(hide yes)
 			(show_name no)
@@ -3689,6 +3809,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Rfbb_12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3703,7 +3829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8bd2ad-d2fd-427a-af68-3bee70b7f135")
-		(property "Reference" "Rpgood_12"
+		(property "Reference" "Rpgood_12V1"
 			(at 83.82 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,7 +3849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.074 44.704 90)
 			(hide yes)
 			(show_name no)
@@ -3769,6 +3895,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Rpgood_12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3782,7 +3914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86181e0d-a3a9-40f7-aa52-0a0d7ee1d24f")
-		(property "Reference" "Cboot_12"
+		(property "Reference" "Cboot_12V1"
 			(at 174.244 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.83 86.0552 0)
 			(hide yes)
 			(show_name no)
@@ -3848,84 +3980,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_US")
-		(at 214.63 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87b2cb75-7464-4a02-9d64-74656cde0101")
-		(property "Reference" "Cout_12_1"
-			(at 215.138 96.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 215.9 98.806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd16bb71-d305-4857-985c-9a3f7a3c2959")
-		)
-		(pin "2"
-			(uuid "f7407ecb-4152-406e-b52b-6bd19dfc119a")
-		)
-		(instances
-			(project "12VBUCK"
-				(path "/661a2d62-d0a5-4ce0-a5da-786c7982441e"
-					(reference "Cout_12_1")
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Cboot_12V1")
 					(unit 1)
 				)
 			)
@@ -3943,7 +4000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98cf2e34-e21a-4fea-9487-5478a4a8875a")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 146.05 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +4020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RNP0030A"
+		(property "Footprint" "Regulator:RNP0030A"
 			(at 146.05 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4100,7 +4157,7 @@
 			)
 			(project "PDB"
 				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4118,7 +4175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ec340d8-f10d-45ac-971d-997cdc0f5e9d")
-		(property "Reference" "Cinx_12"
+		(property "Reference" "Cinx_12V1"
 			(at 102.87 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +4197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.0252 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4186,6 +4243,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Cinx_12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4200,7 +4263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2bbbb8a-50fb-4f81-91d1-2d29c415d5f5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR026"
 			(at 166.37 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4264,6 +4327,95 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BulkCap_100u:EEE-FP1V101AP")
+		(at 232.41 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3e2972a-a894-4c9f-b10f-1056c288601a")
+		(property "Reference" "Cout_12V_2"
+			(at 223.012 93.472 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 223.012 96.012 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkCapacitor_100u:CAP_EEFK_F_PAN"
+			(at 232.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "EEE-FP1V101AP"
+			(at 232.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "924f3338-c39c-4390-9e42-7d789cacef4b")
+		)
+		(pin "2"
+			(uuid "9c18a1d1-bca9-458f-97d6-89937c157383")
+		)
+		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Cout_12V_2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4278,7 +4430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a88a6c38-48a8-4a65-9591-4b89bd078161")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR024"
 			(at 110.49 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4342,6 +4494,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4356,7 +4514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f553a0-5587-457c-988b-697a7e96a14c")
-		(property "Reference" "Rfbt_12"
+		(property "Reference" "Rfbt_12V1"
 			(at 201.93 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +4536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.374 86.106 90)
 			(hide yes)
 			(show_name no)
@@ -4424,6 +4582,95 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Rfbt_12V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BulkCap_100u:EEE-FP1V101AP")
+		(at 214.63 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7bca04a-bba4-4ea3-a522-e336f1c88434")
+		(property "Reference" "Cout_12V_1"
+			(at 209.55 93.472 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 209.55 96.012 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkCapacitor_100u:CAP_EEFK_F_PAN"
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "EEE-FP1V101AP"
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f70a410-a3a5-46fb-87d2-612df74c3164")
+		)
+		(pin "2"
+			(uuid "985e675d-46ca-4516-a7d4-c398f4227f10")
+		)
+		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "Cout_12V_1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4438,7 +4685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5740d0-3c5a-41b1-baca-bd19a706acb1")
-		(property "Reference" "L1_12"
+		(property "Reference" "L1_12V1"
 			(at 186.69 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4458,7 +4705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 186.69 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4504,6 +4751,12 @@
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/671e0fe2-45fb-4e52-a530-4ec5407829a2"
+					(reference "L1_12V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -4511,5 +4764,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

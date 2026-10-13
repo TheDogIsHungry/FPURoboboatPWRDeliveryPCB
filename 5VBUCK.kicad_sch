@@ -715,6 +715,325 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BulkCap_100u:EEE-FP1V101AP"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "EEE-FP1V101AP"
+				(at 3.81 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAP_EEFK_F_PAN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "EEE-FP1V101AP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EEE-FP1V101AP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CAP_EEFK_F_PAN CAP_EEFK_F_PAN-M CAP_EEFK_F_PAN-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EEE-FP1V101AP_1_1"
+				(polyline
+					(pts
+						(xy 1.5748 1.27) (xy 2.8448 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2098 0.635) (xy 2.2098 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.7541 -1.9108)
+					(mid 4.1148 0)
+					(end 4.7541 1.9108)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EEE-FP1V101AP_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.9108 -4.7541)
+					(mid 0 -4.1148)
+					(end 1.9108 -4.7541)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.2098) (xy 1.905 -2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.5748) (xy 1.27 -2.8448)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -853,364 +1172,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1410,6 +1371,231 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Inductor_8.2u:1217AS-H-150M=P3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -10.16 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1217AS-H-150M=P3"
+				(at -10.16 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1217AS-H-150M=P3:IND_1217AS-H-150M=P3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.5 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Murata"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "1217AS-H-150M=P3_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1926,6 +2112,12 @@
 		(uuid "2e7b5d00-a203-4439-9630-0f9c980e5c12")
 	)
 	(junction
+		(at 184.15 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f0d49f-dc36-4315-8d68-9f1b214a3ea9")
+	)
+	(junction
 		(at 187.96 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1998,6 +2190,12 @@
 		(uuid "927dbb8a-2ed9-41e3-ab13-810a74ebd544")
 	)
 	(junction
+		(at 184.15 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987dade8-eded-466e-a91b-3ed4e9d0067c")
+	)
+	(junction
 		(at 194.31 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2022,28 +2220,16 @@
 		(uuid "aa694499-6dd0-4c1b-a11c-662a6efe4aa2")
 	)
 	(junction
+		(at 223.52 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b64a6426-fedb-425a-815d-e048c05c1aa9")
+	)
+	(junction
 		(at 148.59 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf374670-166c-4789-9c30-b04c4c1ca715")
-	)
-	(junction
-		(at 218.44 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c222e355-622f-4788-b188-c20cb342691e")
-	)
-	(junction
-		(at 237.49 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8a6d648-f7c6-4cbf-b475-00806139e5eb")
-	)
-	(junction
-		(at 181.61 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc08af01-1cf9-4715-97b9-2f932dc63c69")
 	)
 	(junction
 		(at 148.59 105.41)
@@ -2058,22 +2244,10 @@
 		(uuid "e48feb4b-d6ee-45b3-a267-199e11d4c741")
 	)
 	(junction
-		(at 168.91 74.93)
+		(at 157.48 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "efaa0763-1c46-4dc9-b2d5-8cf384fe04ab")
-	)
-	(junction
-		(at 218.44 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1ccb9f7-fa82-4acc-b246-07f0a235a863")
-	)
-	(junction
-		(at 181.61 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f465f020-c67b-412e-bdc0-e198fd5317e7")
+		(uuid "efe45deb-3716-4105-9dc4-d3762b6983ee")
 	)
 	(junction
 		(at 194.31 132.08)
@@ -2129,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 81.28) (xy 218.44 81.28)
+			(xy 209.55 81.28) (xy 223.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2189,23 +2363,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 57.15) (xy 168.91 57.15)
+			(xy 152.4 49.53) (xy 157.48 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "206279ed-7c6b-4e81-b175-0eaf46cb213c")
-	)
-	(wire
-		(pts
-			(xy 181.61 97.79) (xy 194.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d4e5ba-b43d-404a-a022-1e9a4ab74961")
 	)
 	(wire
 		(pts
@@ -2249,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 168.91 74.93)
+			(xy 148.59 74.93) (xy 157.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 181.61 97.79)
+			(xy 184.15 93.98) (xy 184.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2309,13 +2473,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 181.61 74.93)
+			(xy 157.48 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3666af45-5554-4c9d-acb9-360dee41edc1")
+		(uuid "35fceba3-17ca-45a3-9283-39194707506d")
 	)
 	(wire
 		(pts
@@ -2369,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 168.91 74.93)
+			(xy 157.48 57.15) (xy 157.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2449,7 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 82.55) (xy 156.21 82.55)
+			(xy 147.32 82.55) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 88.9) (xy 218.44 88.9)
+			(xy 209.55 88.9) (xy 223.52 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2546,16 +2710,6 @@
 			(type default)
 		)
 		(uuid "722f6566-c099-409c-a29f-3081f6781a89")
-	)
-	(wire
-		(pts
-			(xy 168.91 57.15) (xy 168.91 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e77bc5-9a7f-4169-a9ab-8546c59a7084")
 	)
 	(wire
 		(pts
@@ -2679,16 +2833,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 81.28) (xy 231.14 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5d9d6b-eca8-4a7b-8dc1-70ab523f9e0d")
-	)
-	(wire
-		(pts
 			(xy 68.58 77.47) (xy 68.58 132.08)
 		)
 		(stroke
@@ -2809,6 +2953,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 81.28) (xy 231.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d6e84d-f04f-48d6-a8a9-6679655abb35")
+	)
+	(wire
+		(pts
 			(xy 109.22 69.85) (xy 111.76 69.85)
 		)
 		(stroke
@@ -2826,16 +2980,6 @@
 			(type default)
 		)
 		(uuid "ba3db3bd-faa4-453b-b1e0-aab9d6fd129a")
-	)
-	(wire
-		(pts
-			(xy 218.44 88.9) (xy 223.52 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb993718-7416-4dec-b545-7e26bf29036b")
 	)
 	(wire
 		(pts
@@ -2859,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 74.93) (xy 187.96 74.93)
+			(xy 184.15 74.93) (xy 187.96 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2879,6 +3023,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 97.79) (xy 194.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d79624-e4e4-426d-9cd4-7dc38f247ca9")
+	)
+	(wire
+		(pts
 			(xy 110.49 115.57) (xy 110.49 118.11)
 		)
 		(stroke
@@ -2889,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 74.93) (xy 237.49 74.93)
+			(xy 231.14 74.93) (xy 233.68 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2919,23 +3073,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 181.61 97.79)
+			(xy 147.32 97.79) (xy 184.15 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d28daca3-a6b1-4f71-82a7-cfd22ff66eb8")
-	)
-	(wire
-		(pts
-			(xy 237.49 74.93) (xy 238.76 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82108c9-8f9c-452d-9ccf-5ae15ebf6687")
 	)
 	(wire
 		(pts
@@ -2979,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 156.21 57.15)
+			(xy 152.4 82.55) (xy 152.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 181.61 74.93)
+			(xy 184.15 86.36) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3098,7 +3242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07729b73-124c-4492-82d1-ae8a2fa56993")
-		(property "Reference" "Cinx_5V"
+		(property "Reference" "Cinx_5V1"
 			(at 80.01 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3120,7 +3264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3160,90 +3304,15 @@
 			(uuid "3e05a48d-9c76-4f37-a745-7223da68fa38")
 		)
 		(instances
-			(project "5VBUCK"
-				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
-					(reference "Cinx_5V")
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Cinx_5V1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 209.55 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ae3bf66-7168-4bcf-a908-2266247305ad")
-		(property "Reference" "Cout1_5V"
-			(at 197.866 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 200.152 86.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 209.55 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a4c69fe-7ac3-4b46-b959-46722a93167e")
-		)
-		(pin "1"
-			(uuid "0cd107a5-25ac-4e57-8e9f-3ab0bcafc52c")
-		)
-		(instances
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
-					(reference "Cout1_5V")
+					(reference "Cinx_5V")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a2ca12-9c4a-4373-bc80-ad4c338a2b53")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 153.67 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3319,9 +3388,144 @@
 			(uuid "7d123521-ce43-41b6-840f-97562dec0af4")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Inductor_8.2u:1217AS-H-150M=P3")
+		(at 171.45 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a14b15b-5e31-44c7-bcb0-a078910e5e36")
+		(property "Reference" "L1_5V1"
+			(at 171.45 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15u"
+			(at 171.45 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_8.2u:IND_1217AS-H-150M=P3"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1217AS-H-150M=P3"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5 mm"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "84dbacdf-bba4-4375-a213-e7d9a78dc74f")
+		)
+		(pin "1"
+			(uuid "7f46b993-52e1-494f-a4dc-75363c7e87fe")
+		)
+		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "L1_5V1")
 					(unit 1)
 				)
 			)
@@ -3338,7 +3542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "355f40ca-07f7-4cdd-9d70-8ec6a712147a")
-		(property "Reference" "Rt_5V"
+		(property "Reference" "Rt_5V1"
 			(at 91.694 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +3564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.616 114.554 90)
 			(hide yes)
 			(show_name no)
@@ -3400,6 +3604,12 @@
 			(uuid "40e09a20-9297-4bcc-ade6-2135ca238717")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Rt_5V1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Rt_5V")
@@ -3419,7 +3629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3588d7f0-1619-4a1b-b170-77a597ed943a")
-		(property "Reference" "Rpgood_5V"
+		(property "Reference" "Rpgood_5V1"
 			(at 116.332 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,7 +3651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.554 42.164 90)
 			(hide yes)
 			(show_name no)
@@ -3481,6 +3691,12 @@
 			(uuid "5bb7dcbe-a125-4c76-8222-5207a54331f8")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Rpgood_5V1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Rpgood_5V")
@@ -3491,7 +3707,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 90.17 0)
+		(at 184.15 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3500,8 +3716,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f51a631-03fb-4b10-ae70-22e361f00ab7")
-		(property "Reference" "Cff_5V"
-			(at 185.166 88.9 0)
+		(property "Reference" "Cff_5V1"
+			(at 185.674 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3512,7 +3728,7 @@
 			)
 		)
 		(property "Value" "5.6p"
-			(at 185.166 91.44 0)
+			(at 185.674 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3522,8 +3738,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.5752 93.98 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.1152 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3534,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 90.17 0)
+			(at 184.15 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3545,7 +3761,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 90.17 0)
+			(at 184.15 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,6 +3778,12 @@
 			(uuid "9370ad1f-2ca9-4639-85b8-383119b3e6f7")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Cff_5V1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Cff_5V")
@@ -3571,88 +3793,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 172.72 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5274d95e-943b-4c5a-8bf9-bb8912a57583")
-		(property "Reference" "L1"
-			(at 172.72 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15uH"
-			(at 172.72 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 172.72 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44f4b927-65c9-4185-af31-81fcb04e2503")
-		)
-		(pin "1"
-			(uuid "2f6aa3f9-cf0a-41aa-ba05-c9890bc2c873")
-		)
-		(instances
-			(project "5VBUCK"
-				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 237.49 74.93 0)
+		(at 233.68 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3662,8 +3804,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58533d7b-c6a3-49e0-a262-99f2e41f1b21")
-		(property "Reference" "#PWR01"
-			(at 237.49 78.74 0)
+		(property "Reference" "#PWR021"
+			(at 233.68 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,7 +3816,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 237.49 69.85 0)
+			(at 233.68 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3684,7 +3826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 74.93 0)
+			(at 233.68 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +3837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 74.93 0)
+			(at 233.68 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3706,7 +3848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 74.93 0)
+			(at 233.68 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,6 +3862,12 @@
 			(uuid "01271823-cb84-49bd-ba28-d943daeebd65")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "#PWR01")
@@ -3740,7 +3888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f3a18dd-7f87-4839-ac8b-280e0a391966")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 128.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3798,6 +3946,12 @@
 			(uuid "d31da372-6b55-47ea-a91d-8a66c5238892")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "#PWR018")
@@ -3818,7 +3972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67183a86-1f40-4338-b6c1-f7604aec1284")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR017"
 			(at 66.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3876,9 +4030,98 @@
 			(uuid "dc4af375-b397-458d-ad75-13caee8e8f66")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BulkCap_100u:EEE-FP1V101AP")
+		(at 209.55 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ffd000f-9db3-4750-ad13-29c49cb3ade2")
+		(property "Reference" "Cout_5V_1"
+			(at 204.47 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 204.47 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkCapacitor_100u:CAP_EEFK_F_PAN"
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "EEE-FP1V101AP"
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7b60ec3-cdb4-47e4-a3f1-6633f5eba0ab")
+		)
+		(pin "2"
+			(uuid "36c21fd0-2b2d-4d9f-a8dd-69e942efe7fb")
+		)
+		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Cout_5V_1")
 					(unit 1)
 				)
 			)
@@ -3896,7 +4139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85ad51ab-54b6-4bfd-8fd4-fa1a3a3f301f")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 129.54 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +4159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RNP0030A"
+		(property "Footprint" "Regulator:RNP0030A"
 			(at 129.54 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4045,6 +4288,12 @@
 			(uuid "4473dca9-9079-4f21-af42-c72ab08cdd96")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "U1")
@@ -4065,7 +4314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f65278-bcbc-472f-a7b0-f3b8954487a6")
-		(property "Reference" "Cvcc_5V"
+		(property "Reference" "Cvcc_5V1"
 			(at 102.87 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,7 +4336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.0252 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4127,6 +4376,12 @@
 			(uuid "7de2a922-3097-4965-a6d3-25a1aaa5a935")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Cvcc_5V1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Cvcc_5V")
@@ -4137,7 +4392,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 64.77 0)
+		(at 157.48 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4146,8 +4401,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "979fdb95-9373-4620-ac58-b9c07707e3a3")
-		(property "Reference" "Cboot_5V"
-			(at 173.736 63.5 0)
+		(property "Reference" "Cboot_5V1"
+			(at 162.306 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4158,7 +4413,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 173.736 66.04 0)
+			(at 162.306 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4168,8 +4423,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 169.8752 68.58 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 158.4452 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4180,7 +4435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 64.77 0)
+			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4446,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 64.77 0)
+			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4208,9 +4463,98 @@
 			(uuid "563b528f-b631-4044-bb83-2ce24bb768d0")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Cboot_5V1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Cboot_5V")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BulkCap_100u:EEE-FP1V101AP")
+		(at 223.52 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a57702c3-2a83-4247-aac0-9fedf19d9f02")
+		(property "Reference" "Cout_5V_2"
+			(at 218.44 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 218.44 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkCapacitor_100u:CAP_EEFK_F_PAN"
+			(at 223.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "EEE-FP1V101AP"
+			(at 223.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a6b4f82-d554-4815-bc90-032b03cebd3b")
+		)
+		(pin "2"
+			(uuid "73438057-6388-484c-86e4-74e99089f951")
+		)
+		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Cout_5V_2")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a94bb804-e752-4797-ad1f-1f17ea8a7152")
-		(property "Reference" "Cin_5V"
+		(property "Reference" "Cin_5V1"
 			(at 58.928 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4249,7 +4593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 69.5452 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4289,90 +4633,15 @@
 			(uuid "c2d3f1cf-5a78-4977-b360-658b97e790f0")
 		)
 		(instances
-			(project "5VBUCK"
-				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
-					(reference "Cin_5V")
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Cin_5V1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 218.44 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad12fceb-2ff9-447c-90e7-0e0e954ac241")
-		(property "Reference" "Cout2_5V"
-			(at 221.996 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 221.996 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 218.44 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b9702677-e984-4735-8531-21043cc48363")
-		)
-		(pin "1"
-			(uuid "072b9d8f-afc0-46b2-a76f-f92732c4cd03")
-		)
-		(instances
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
-					(reference "Cout2_5V")
+					(reference "Cin_5V")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b73b5721-a1bf-41ae-b9ee-eeded65208b2")
-		(property "Reference" "Coutx_5V"
+		(property "Reference" "Coutx_5V1"
 			(at 239.776 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,7 +4680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 235.9152 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4451,6 +4720,12 @@
 			(uuid "6ae0fef4-c620-48d2-a288-4e9ca4c7758c")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Coutx_5V1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Coutx_5V")
@@ -4471,7 +4746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2dcee1b-7844-46c8-a4d6-66159bf34fd1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 99.06 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4529,6 +4804,12 @@
 			(uuid "deebd2d2-c5fe-4b69-a24c-dc011772f77b")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "#PWR09")
@@ -4548,7 +4829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7282f6e-ee94-410e-9991-243790f4bc4d")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 204.216 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4570,7 +4851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.294 101.346 90)
 			(hide yes)
 			(show_name no)
@@ -4610,6 +4891,12 @@
 			(uuid "8d57fa57-b2f1-41c7-b30a-f470a4c57b8f")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Rfbb1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Rfbb")
@@ -4629,7 +4916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f12b32ec-26b4-4d5a-baba-b934880e0367")
-		(property "Reference" "Rfbt_5V"
+		(property "Reference" "Rfbt_5V1"
 			(at 204.216 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.294 93.726 90)
 			(hide yes)
 			(show_name no)
@@ -4691,6 +4978,12 @@
 			(uuid "f07bf0c4-7340-47c7-9dd1-79d57fe3d8c8")
 		)
 		(instances
+			(project "PDB"
+				(path "/92a2f50e-3f98-4d49-9c3f-ef5b5f4d9805/81a110be-86fb-4821-928a-861e60c1d528"
+					(reference "Rfbt_5V1")
+					(unit 1)
+				)
+			)
 			(project "5VBUCK"
 				(path "/f84643eb-f01e-4897-a1ab-2b8f94318043"
 					(reference "Rfbt_5V")
@@ -4704,5 +4997,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
